@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>MA-NH Job Alerts</title><meta name="description" content="Personal daily job alerts for Massachusetts and New Hampshire."><link rel="stylesheet" href="style.css"></head><body><main>
+<p class="eyebrow">Personal job alert project</p>
+<h1>MA-NH Job Alerts</h1>
+<p>MA-NH Job Alerts checks public employer career pages for jobs in Massachusetts and New Hampshire. It compares listings with saved job history and emails newly discovered opportunities to the project owner's configured address.</p>
+<h2>How it works</h2>
+<p>The Python scraper runs through GitHub Actions on a daily schedule. Alerts include the employer, job title, location and a link to the listing. Selected high-volume sources have engineering-related filters.</p>
+<h2>Gmail access</h2>
+<p>The project uses Google's Gmail API and the <code>gmail.send</code> permission to send job alert emails from the owner's authorized account. It does not request permission to read, search or delete inbox messages. Authorization is completed by the owner using a local helper; this website does not collect credentials or offer an account sign-in.</p>
+<p>This is a personal project maintained by GitHub user <a href="https://github.com/kstiemsma">kstiemsma</a>, rather than a public email or recruiting service.</p>
+<p><a href="privacy.html">Read the privacy policy</a> · <a href="https://github.com/kstiemsma/ma-nh-job-alert-scraper">Project repository</a></p>
+<footer>MA-NH Job Alerts · <a href="privacy.html">Privacy policy</a> · <a href="https://github.com/kstiemsma/ma-nh-job-alert-scraper/issues">Contact the maintainer</a></footer>
+</main></body></html>
